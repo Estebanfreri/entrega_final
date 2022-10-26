@@ -1,0 +1,19 @@
+@for $i from 1 to 10 {
+    .padding-#{$i}{
+        padding: 1rem * $i;       
+}
+}
+@each $color, $color-claro in $categories {
+    .redes__color--#{$color}{
+        background-color: map-get($color-claro, color );
+        .Calendario
+        {
+            background-color: map-get($color-claro, color);
+            @if map-get($color-claro, lightcolor) == true {
+                color:$dark;   
+            } @else{
+                color:$light;
+    }
+}
+}
+}

@@ -1,0 +1,33 @@
+@import "./complements/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "./complements/mixins";
+
+@import "./pages/index";
+
+@import "./pages/Quienessomos";
+
+@import "./pages/velas";
+
+@import "./pages/Velas2";
+
+@import "./pages/contactos";
+
+@import "./pages/talleres";
+
+@import "./components/footer";
+
+@import "./components/navbar";
+
+@import "./complements/bucles";
+
+
+
+
+
+
+
+
+

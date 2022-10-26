@@ -1,0 +1,303 @@
+.main_taller {
+    background: rgb(202, 203, 194);
+    background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+    display: flex;
+    justify-content: center;
+
+    &_informacion {
+        border-radius: 50px;
+        background: #e0e0e0;
+        box-shadow: 20px 20px 60px #bebebe;
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: rgb(202, 203, 194);
+        background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+        color: $dark;
+    }
+
+    &_titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+        margin-top: 20px;
+    }
+
+    &_descripcion {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 15px;
+
+    }
+}
+
+.Conteiner_carousel {
+    display: flex;
+    justify-content: center;
+    background-repeat: none;
+    margin: 10px;
+    margin-left: 40px;
+    width: 300px;
+}
+
+.Calendario {
+    background: $light;
+    color: $dark;
+    padding: 10px;
+
+    &_titulo {
+        font-size: 50px;
+        text-align: center;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        color: $dark;
+    }
+
+    &_horarios_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+
+        u {
+            color: $danger;
+
+        }
+
+        a i {
+            color: $primary;
+            margin-right: 10px;
+        }
+    }
+
+    &_horarios_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+
+        u {
+            color: $danger;
+        }
+
+        a i {
+            color: $primary;
+            margin-right: 10px;
+        }
+    }
+
+    &_horarios_3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+
+        u {
+            color: $danger;
+        }
+
+        a i {
+            color: $primary;
+            margin-right: 10px;
+        }
+    }
+
+    &_horarios_4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+
+        u {
+            color: $danger;
+        }
+
+        a i {
+            color: $primary;
+            margin-right: 10px;
+        }
+    }
+
+    &_horarios_5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+
+        u {
+            color: $danger;
+
+        }
+
+        a i {
+            color: $primary;
+            margin-right: 10px;
+        }
+    }
+
+}
+
+
+.fa-solid {
+    font-size: 20px;
+}
+
+@media (min-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .main_taller {
+
+        background: rgb(202, 203, 194);
+        background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+        display: flex;
+        justify-content: center;
+
+        &_informacion {
+            box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: rgb(202, 203, 194);
+            background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+            color: $dark;
+            margin-top: 20px;
+        }
+
+        &_titulo {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 20px;
+            margin-top: 20px;
+            width: 900px;
+        }
+
+        &_descripcion {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 15px;
+            width: 900px;
+        }
+    }
+
+
+
+    .Conteiner_carousel {
+        display: flex;
+        justify-content: center;
+        background-repeat: none;
+        margin-left: 510px;
+        width: 400px;
+    }
+
+    .Calendario {
+        background: $light;
+        padding: 10px;
+
+        &_titulo {
+            font-size: 50px;
+            text-align: center;
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            color: $dark;
+        }
+
+        &_horarios_1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 60px;
+            margin-top: 60px;
+
+            u {
+                color: $danger;
+            }
+
+            a i {
+                color: $primary;
+                margin-right: 10px;
+            }
+        }
+
+        &_horarios_2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 60px;
+            margin-top: 60px;
+
+            u {
+                color: $danger;
+            }
+
+            a i {
+                color: $primary;
+                margin-right: 10px;
+            }
+        }
+
+        &_horarios_3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 60px;
+            margin-top: 60px;
+
+            u {
+                color: $danger;
+            }
+
+            a i {
+                color: $primary;
+                margin-right: 10px;
+            }
+        }
+
+        &_horarios_4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 60px;
+            margin-top: 60px;
+
+            u {
+                color: $danger;
+            }
+
+            a i {
+                color: $primary;
+                margin-right: 10px;
+            }
+        }
+
+        &_horarios_5 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 60px;
+            margin-top: 60px;
+
+            u {
+                color: $danger;
+
+            }
+
+            a i {
+                color: $primary;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}

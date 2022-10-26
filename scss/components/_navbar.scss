@@ -1,0 +1,23 @@
+.container-fluid {
+    display: flex;
+    justify-items: center;
+    padding: 25px 0 25px 35px;
+    background-color: #49443c;
+    border-top: 70px;
+
+    ul li a {
+        display: flex;
+        justify-items:end;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        color: white;
+    }
+
+    ul li a:hover {
+        color: rgb(102, 198, 239);
+    }
+}
+.nav-link{
+display: flex;
+justify-content: end;
+}

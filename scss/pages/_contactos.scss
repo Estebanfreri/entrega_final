@@ -1,0 +1,142 @@
+.fondo_support {
+    background: rgb(239,242,198);
+    background: linear-gradient(180deg, rgba(239,242,198,0.520045518207283) 25%, rgba(255,255,255,0) 59%);
+}
+.main_support {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color: #0a141d;
+}
+
+.main_support_form {
+    h2 {
+        display: flex;
+        justify-content: center;
+}
+    p {
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    a {
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+
+        margin-bottom: 16px;
+        color: $danger;
+        font-weight: 700;
+    }
+
+    a i {
+        color: $success;
+        margin-right: 10px;
+    }
+
+
+}
+
+.mapa {
+    width: 250px;
+    height: 250px;
+    
+    
+}
+.formulario {
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+
+.campo_textarea{
+    text-align: center;
+
+}
+
+@media (min-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.fondo_support {
+    background: $light;
+}
+
+.main_support {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color: $dark;
+}
+.main_support_form {
+    h2 {
+        display: flex;
+        justify-content: center;
+}
+    p {
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    a {
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+
+        margin-bottom: 16px;
+        color: $danger;
+        font-weight: 700;
+    }
+
+    a i {
+        color: $success;
+        margin-right: 10px;
+    }
+
+
+}
+
+.mapa {
+    width: 250px;
+    height: 250px;
+    
+    
+}
+
+.formulario {
+    margin-left: 25px;
+
+}
+
+.main_support_form form .campo,
+textarea {
+
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid $dark;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 10px;
+}
+
+.btn1 {
+    padding: 15px;
+    margin: 20px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: $danger;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all;
+}
+}
