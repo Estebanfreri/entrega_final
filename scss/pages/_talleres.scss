@@ -3,6 +3,7 @@
     background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
     display: flex;
     justify-content: center;
+    padding: 20px;
 
     &_informacion {
         border-radius: 50px;
@@ -40,6 +41,7 @@
     margin: 10px;
     margin-left: 40px;
     width: 300px;
+    margin-bottom: 30px;
 }
 
 .Calendario {
@@ -143,10 +145,6 @@
 
 }
 
-
-.fa-solid {
-    font-size: 20px;
-}
 
 @media (min-width:768px) {
     * {

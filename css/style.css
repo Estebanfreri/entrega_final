@@ -8355,15 +8355,17 @@ textarea.form-control-lg {
     margin-right: 20px;
     margin-bottom: 30px; }
 
-.Main_productos_imagen {
-  width: 400px;
+.Main_productos {
+  width: 350px;
   justify-self: center;
   animation-name: slow;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-duration: 10s;
-  opacity: 1;
-  margin-right: 20px; }
+  opacity: 1; }
+  .Main_productos_imagen {
+    width: 350px;
+    height: 350px; }
 
 @keyframes slow {
   0%,
@@ -8400,8 +8402,6 @@ textarea.form-control-lg {
     .main_website_description {
       font-size: 30px;
       width: 70%; }
-  .Main_productos_imagen {
-    margin-left: 10px; }
   .Description_web_pag2 {
     width: 100%;
     max-width: 75em;
@@ -8432,7 +8432,7 @@ textarea.form-control-lg {
     align-items: center;
     margin-top: 6.25em;
     grid-template-areas: "texto video"; }
-  .Main_productos_imagen {
+  .Main_productos {
     width: 20em;
     justify-self: center;
     animation-name: slow;
@@ -8521,6 +8521,10 @@ textarea.form-control-lg {
 /* PAGINA VELAS */
 .fondo_velas {
   background-color: #d6d5cd; }
+
+.imagen_encabezado_velas {
+  display: flex;
+  justify-content: center; }
 
 .velas_titulo {
   font-size: 50px;
@@ -8995,8 +8999,7 @@ textarea.form-control-lg {
         transition: all 2s; } }
 
 .fondo_support {
-  background: #eff2c6;
-  background: linear-gradient(180deg, rgba(239, 242, 198, 0.520046) 25%, rgba(255, 255, 255, 0) 59%); }
+  background: #d6d5cd; }
 
 .main_support {
   text-align: center;
@@ -9072,7 +9075,11 @@ textarea.form-control-lg {
     width: 250px;
     height: 250px; }
   .formulario {
-    margin-left: 25px; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 500px; }
   .main_support_form form .campo,
   textarea {
     padding: 15px 10px;
@@ -9097,7 +9104,8 @@ textarea.form-control-lg {
   background: #cacbc2;
   background: linear-gradient(180deg, rgba(202, 203, 194, 0.520046) 17%, rgba(255, 255, 255, 0) 59%);
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding: 20px; }
   .main_taller_informacion {
     border-radius: 50px;
     background: #e0e0e0;
@@ -9126,7 +9134,8 @@ textarea.form-control-lg {
   background-repeat: none;
   margin: 10px;
   margin-left: 40px;
-  width: 300px; }
+  width: 300px;
+  margin-bottom: 30px; }
 
 .Calendario {
   background: #d6d5cd;
@@ -9192,9 +9201,6 @@ textarea.form-control-lg {
     .Calendario_horarios_5 a i {
       color: #1f2988;
       margin-right: 10px; }
-
-.fa-solid {
-  font-size: 20px; }
 
 @media (min-width: 768px) {
   * {

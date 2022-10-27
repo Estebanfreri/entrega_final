@@ -43,17 +43,19 @@
     }
 }
 
-.Main_productos_imagen {
-    width: 400px;
+.Main_productos {
+    width: 350px;
     justify-self: center;
     animation-name: slow;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 10s;
     opacity: 1;
-    margin-right: 20px;
+    &_imagen {
+width: 350px;
+height: 350px;
+    }
 }
-
 
 @keyframes slow {
 
@@ -74,6 +76,7 @@
         transform: translate(-25px, 25px);
     }
 }
+
 
 @media (min-width:768px) {
     * {
@@ -107,9 +110,7 @@
         }
     }
 
-    .Main_productos_imagen {
-        margin-left: 10px;
-    }
+
 
     .Description_web_pag2 {
         width: 100%;
@@ -148,7 +149,7 @@
 
     }
 
-    .Main_productos_imagen {
+    .Main_productos {
         width: 20em;
         justify-self: center;
         animation-name: slow;

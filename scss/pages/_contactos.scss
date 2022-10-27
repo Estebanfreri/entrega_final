@@ -1,6 +1,5 @@
 .fondo_support {
-    background: rgb(239,242,198);
-    background: linear-gradient(180deg, rgba(239,242,198,0.520045518207283) 25%, rgba(255,255,255,0) 59%);
+    background: $light;
 }
 .main_support {
     text-align: center;
@@ -112,7 +111,11 @@
 }
 
 .formulario {
-    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 500px;
 
 }
 
