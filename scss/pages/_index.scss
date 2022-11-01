@@ -158,7 +158,11 @@ height: 350px;
         animation-duration: 10s;
         opacity: 1;
         margin-top: 30px;
-    }
+        &_imagen {
+            width: 450px;
+            height: 450px;
+                }
+}
 
     @keyframes slow {
 

@@ -8441,6 +8441,9 @@ textarea.form-control-lg {
     animation-duration: 10s;
     opacity: 1;
     margin-top: 30px; }
+    .Main_productos_imagen {
+      width: 450px;
+      height: 450px; }
   @keyframes slow {
     0%,
     100% {
@@ -9072,8 +9075,9 @@ textarea.form-control-lg {
     color: #0f582b;
     margin-right: 10px; }
   .mapa {
-    width: 250px;
-    height: 250px; }
+    width: 490px;
+    height: 250px;
+    margin-left: 40px; }
   .formulario {
     display: flex;
     flex-direction: column;
