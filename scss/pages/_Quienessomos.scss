@@ -1,13 +1,13 @@
 .fondo_quienesomos {
-    background-color:$light ;
+    background-color: $light ;
 }
 
-.imagen_encabezado{
+.imagen_encabezado {
     display: flex;
     justify-content: center;
     margin-left: 20px;
-margin-right: 20px;
-margin-top: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 .container_quienessomos {
@@ -16,24 +16,36 @@ margin-top: 10px;
     align-items: center;
     width: 100%;
     height: 700px;
-    h3{
+    margin-bottom: 100px;
+
+    h3 {
         font-size: 1rem;
     }
 }
-    .container_titulo h1 {
-        display: flex;
-       justify-content: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 2rem;
-        color:$dark;
-    }
 
-    .parrafo2 {
-        box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
-        font-size: 1rem;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+.container_titulo h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: $dark;
+    margin-bottom: 30px;
+}
+
+.parrafo2 {
+    box-shadow: -5px -4px 5px 0px $orange;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conteiner_card_hermanos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
 @media (min-width:768px) {
     * {
         margin: 0;
@@ -42,41 +54,60 @@ margin-top: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
-    .imagen_encabezado{
+    .imagen_encabezado {
         display: flex;
         justify-content: center;
-        .img-fluid{
+
+        .img-fluid {
             width: 1200px;
             height: 130px;
-    }
-}
-
-.fondo_quienesomos {
-    background-color:$light ;
-}
-
-.container_quienessomos {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    height: 300px;
+        }
     }
 
-.container_titulo h1 {
-    display: flex;
-    justify-content: start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    margin-bottom: 10px;
-    color:$dark;
-    padding-left: 100px;
-}
-.parrafo2 {
-    box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
-    font-size: 1.3rem;
-    margin-left: 120px;
-    margin-right: 120px;
+    .fondo_quienesomos {
+        background-color: $light ;
+    }
+
+    .container_quienessomos {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+    }
+.container_quienessomos_subtitulo{
+    margin-top: 60px;
 }
 
+
+    .container_titulo h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: $dark;
+    }
+
+    .parrafo2 {
+        box-shadow: -5px -4px 5px 0px $info;
+        font-size: 1.3rem;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .conteiner_card {
+        background-image: url(../img/imagenes-quienessomos/fondo-card.jpeg);
+        background-repeat: repeat;
+        background-size: 1460px 820px;
+        padding: 20px;
+
+        &_hermanos {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+
+        }
+    }
 }

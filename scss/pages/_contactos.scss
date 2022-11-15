@@ -1,11 +1,57 @@
 .fondo_support {
     background: $light;
 }
+
+.fondo_support {
+    background-image: url(../img/imagenes-quienessomos/fondo-card.jpeg);
+background-repeat: repeat;
+background-size: 1460px 820px;
+    &_titulo { text-align: center;
+        margin: 20px;
+}
+}
+.main_support_ayuda h2{
+     text-align:center;
+     margin: 20px;
+    
+}
+.main_ayuda{
+    text-align: center;
+}
+.main_ayuda_recomendadas{
+    
+    text-align:justify;
+    padding: 20px;
+p {
+    text-align: justify;
+}
+a {
+    display: flex;
+    justify-content: row;
+    text-align: center;
+
+}
+}
+
+.main_ayuda_rapida{
+    
+    text-align:justify;
+    padding: 20px;
+p {
+    text-align: justify;
+}
+a {
+    display: flex;
+    justify-content: row;
+    text-align: center;
+
+}
+}
 .main_support {
     text-align: center;
     padding-top: 30px;
     margin-bottom: 10px;
-    color: #0a141d;
+    color: $dark;
 }
 
 .main_support_form {
@@ -47,9 +93,15 @@
 .formulario {
     text-align: center;
     margin: 10px;
-    margin-left: 20px;
+    
 
 }
+
+.formulario_contactos{
+display: flex;
+justify-content: center;
+}
+
 
 .campo_textarea{
     text-align: center;
@@ -65,9 +117,48 @@
     }
 
 .fondo_support {
-    background: $light;
+    background-image: url(../img/imagenes-quienessomos/fondo-card.jpeg);
+background-repeat: repeat;
+background-size: 1460px 820px;
+    &_titulo { text-align: center;
+        margin: 20px;
+}
+}
+.main_support_ayuda h2{
+     text-align:center;
+     margin: 20px;
+    
+}
+.main_ayuda{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.main_ayuda_recomendadas{
+    text-align:justify;
+p {
+    text-align: justify;
+}
+a {
+    display: flex;
+    justify-content: row;
+    text-align: center;
+
+}
 }
 
+.main_ayuda_rapida{
+    text-align:justify;
+p {
+    text-align: justify;
+}
+a {
+    display: flex;
+    justify-content: row;
+    text-align: center;
+
+}
+}
 .main_support {
     padding-top: 30px;
     margin-bottom: 10px;
@@ -106,7 +197,7 @@
 .mapa {
     width: 490px;
     height: 250px;
-    margin-left: 40px;
+    
     
     
 }
@@ -116,9 +207,11 @@
     flex-direction: column;
     justify-content: center;
     width: 500px;
-    margin-left: 500px;
+    
 
 }
+
+
 
 .main_support_form form .campo,
 textarea {
@@ -138,7 +231,7 @@ textarea {
     border: none;
     outline: 0px;
     background: $danger;
-    color: white;
+    color: $light;
     border-radius: 3px;
     cursor: pointer;
     transition: all;

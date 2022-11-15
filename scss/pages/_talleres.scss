@@ -1,19 +1,16 @@
 .main_taller {
-    background: rgb(202, 203, 194);
-    background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
     display: flex;
     justify-content: center;
     padding: 20px;
 
     &_informacion {
         border-radius: 50px;
-        background: #e0e0e0;
-        box-shadow: 20px 20px 60px #bebebe;
+        box-shadow: 20px 20px 60px $dark;;
             display: flex;
         flex-direction: column;
         justify-content: center;
-        background: rgb(202, 203, 194);
-        background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+        background: $light;
+        background: linear-gradient(180deg, $gray-600 17%, $light 59%);
         color: $dark;
     }
 
@@ -34,17 +31,14 @@
     }
 }
 
-.Conteiner_carousel {
+.conteiner_carousel {
     display: flex;
     justify-content: center;
     background-repeat: none;
-    margin: 10px;
-    margin-left: 40px;
-    width: 300px;
     margin-bottom: 30px;
 }
 
-.Calendario {
+.calendario {
     background: $light;
     color: $dark;
     padding: 10px;
@@ -156,18 +150,17 @@
 
     .main_taller {
 
-        background: rgb(202, 203, 194);
-        background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+        
         display: flex;
         justify-content: center;
 
         &_informacion {
-            box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: -5px -4px 5px 0px $dark;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background: rgb(202, 203, 194);
-            background: linear-gradient(180deg, rgba(202, 203, 194, 0.520045518207283) 17%, rgba(255, 255, 255, 0) 59%);
+            background: $light;
+            background: linear-gradient(180deg, $gray-600 17%, $light 59%);
             color: $dark;
             margin-top: 20px;
         }
@@ -189,18 +182,23 @@
             width: 900px;
         }
     }
-
-
-
-    .Conteiner_carousel {
+  
+    .carousel_imagenes{
         display: flex;
         justify-content: center;
-        background-repeat: none;
-        margin-left: 510px;
-        width: 400px;
+        align-items: center;
     }
 
-    .Calendario {
+    .conteiner_carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: none;
+        width: 400px;
+        
+    }
+
+    .calendario {
         background: $light;
         padding: 10px;
 

@@ -1,6 +1,6 @@
 .pie_pagina {
     width: 100%;
-    background-color: #49443c;
+    background-color: $gray-600;
 
 }
 
@@ -37,7 +37,7 @@
     padding: 20px;
 }
 
-.pie_pagina .group_1 .Red_social i {
+.pie_pagina .group_1 .red_social i {
     display: inline-block ;
     font-size: 25px;
     width: 35px;
@@ -48,7 +48,7 @@
     }
 
     .pie_pagina .group_2 {
-        background-color: #49443c;
+        background-color: $gray-600;
         padding: 15px 10px;
         text-align: center;
         color: #fff;
@@ -67,7 +67,7 @@
 
 .pie_pagina {
     width: 100%;
-    background-color: #49443c;
+    background-color: $gray-600;
 
 }
 
@@ -107,7 +107,7 @@
     color: #efefef;
     margin-bottom: 10px;
 }
-.pie_pagina .group_1 .Red_social i {
+.pie_pagina .group_1 .red_social i {
 display: inline-block ;
 font-size: 25px;
 width: 35px;
@@ -119,7 +119,7 @@ color: #fff;
 
 
 .pie_pagina .group_2 {
-    background-color: #49443c;
+    background-color: $gray-600;
     padding: 15px 10px;
     text-align: center;
     color: #fff;

@@ -8327,35 +8327,50 @@ textarea.form-control-lg {
   align-items: center;
   text-align: center;
   font-family: "Arial Narrow Bold", sans-serif;
-  background-image: url(../img/imagenes-index/fondo-index.webp);
+  background-image: url(../img/imagenes-index/fondoindex.jpeg);
   background-repeat: no-repeat;
   background-size: 1460px 820px;
-  color: #3e444a; }
+  color: #d6d5cd; }
   .main_website_title {
     font-size: 70px; }
   .main_website_description {
     font-size: 30px;
     width: 70%; }
 
-.Description_web_pag2 {
-  background-color: #aec0d0;
+.description_web_pag2 {
   height: 37.5em;
-  background-color: white;
-  color: black;
+  color: #0e1102;
   display: flex;
   justify-content: center;
   height: 800px; }
-  .Description_web_pag2_texto {
-    box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  .description_web_pag2_texto {
+    box-shadow: -5px -4px 5px 0px #0e1102;
     font-size: 20px;
-    background: #8a90a0;
-    background: linear-gradient(180deg, #823d1e7c 29%, white 58%);
+    background: linear-gradient(180deg, #737373 29%, #d6d5cd 58%);
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px; }
 
-.Main_productos {
+.description_web_pag3 {
+  background-image: url(../img/imagenes-index/fondoindex.jpeg);
+  background-repeat: repeat;
+  background-size: 1460px 820px;
+  padding: 10px;
+  text-align: center;
+  color: #d6d5cd; }
+
+.description_web_pag3_card_velas {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: #d6d5cd; }
+  .description_web_pag3_card_velas_card1 {
+    margin: 10px; }
+  .description_web_pag3_card_velas_card2 {
+    margin: 10px; }
+
+.main_productos {
   width: 350px;
   justify-self: center;
   animation-name: slow;
@@ -8363,7 +8378,7 @@ textarea.form-control-lg {
   animation-timing-function: ease-in;
   animation-duration: 10s;
   opacity: 1; }
-  .Main_productos_imagen {
+  .main_productos_imagen {
     width: 350px;
     height: 350px; }
 
@@ -8393,33 +8408,31 @@ textarea.form-control-lg {
     align-items: center;
     text-align: center;
     font-family: "Arial Narrow Bold", sans-serif;
-    background-image: url(../img/imagenes-index/fondo-index.webp);
+    background-image: url(../img/imagenes-index/fondoindex.jpeg);
     background-repeat: no-repeat;
     background-size: 1460px 820px;
-    color: #6f534f; }
+    color: #d6d5cd; }
     .main_website_title {
       font-size: 70px; }
     .main_website_description {
       font-size: 30px;
       width: 70%; }
-  .Description_web_pag2 {
+  .description_web_pag2 {
     width: 100%;
     max-width: 75em;
     height: 37.5em;
-    background-color: white;
-    color: black;
+    color: #0e1102;
     display: flex;
     justify-content: center;
     margin-left: 20px; }
-    .Description_web_pag2_texto {
-      box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+    .description_web_pag2_texto {
+      box-shadow: -5px -4px 5px 0px #0e1102;
       font-size: 20px;
-      background: #8a90a0;
-      background: linear-gradient(180deg, #4b7fb7 29%, white 58%);
+      background: linear-gradient(180deg, #737373 29%, #d6d5cd 58%);
       padding: 10px;
       margin-left: 10px;
       margin-right: 10px; }
-  .Main_productos_conteiner {
+  .main_productos_conteiner {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 300px;
@@ -8432,7 +8445,7 @@ textarea.form-control-lg {
     align-items: center;
     margin-top: 6.25em;
     grid-template-areas: "texto video"; }
-  .Main_productos {
+  .main_productos {
     width: 20em;
     justify-self: center;
     animation-name: slow;
@@ -8441,9 +8454,20 @@ textarea.form-control-lg {
     animation-duration: 10s;
     opacity: 1;
     margin-top: 30px; }
-    .Main_productos_imagen {
+    .main_productos_imagen {
       width: 450px;
       height: 450px; }
+  .description_web_pag3 {
+    background-image: url(../img/imagenes-index/fondoindex.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1460px 820px;
+    padding: 20px; }
+    .description_web_pag3_info {
+      text-align: center;
+      color: #d6d5cd; }
+    .description_web_pag3_card_velas {
+      display: flex;
+      justify-content: space-around; }
   @keyframes slow {
     0%,
     100% {
@@ -8470,7 +8494,8 @@ textarea.form-control-lg {
   text-align: center;
   align-items: center;
   width: 100%;
-  height: 700px; }
+  height: 700px;
+  margin-bottom: 100px; }
   .container_quienessomos h3, .container_quienessomos .h3 {
     font-size: 1rem; }
 
@@ -8479,13 +8504,19 @@ textarea.form-control-lg {
   justify-content: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2rem;
-  color: #0e1102; }
+  color: #0e1102;
+  margin-bottom: 30px; }
 
 .parrafo2 {
-  box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px -4px 5px 0px #fd7e14;
   font-size: 1rem;
   margin-left: 20px;
   margin-right: 20px; }
+
+.conteiner_card_hermanos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
 
 @media (min-width: 768px) {
   * {
@@ -8507,162 +8538,65 @@ textarea.form-control-lg {
     align-items: center;
     width: 100%;
     height: 300px; }
+  .container_quienessomos_subtitulo {
+    margin-top: 60px; }
   .container_titulo h1, .container_titulo .h1 {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
-    margin-bottom: 10px;
-    color: #0e1102;
-    padding-left: 100px; }
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #0e1102; }
   .parrafo2 {
-    box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px -4px 5px 0px #0dcaf0;
     font-size: 1.3rem;
     margin-left: 120px;
-    margin-right: 120px; } }
+    margin-right: 120px; }
+  .conteiner_card {
+    background-image: url(../img/imagenes-quienessomos/fondo-card.jpeg);
+    background-repeat: repeat;
+    background-size: 1460px 820px;
+    padding: 20px; }
+    .conteiner_card_hermanos {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 50px; } }
 
 /* PAGINA VELAS */
 .fondo_velas {
-  background-color: #d6d5cd; }
+  background-image: url(../img/imagenes-index/fondoindex.jpeg);
+  background-repeat: repeat;
+  background-size: 1460px 820px; }
+
+.velas_titulo {
+  text-align: center;
+  color: #d6d5cd; }
 
 .imagen_encabezado_velas {
   display: flex;
   justify-content: center; }
 
-.velas_titulo {
-  font-size: 50px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-  color: #0e1102; }
-
-.contenedor_velas {
+.contenedor_velas1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .contenedor_velas h3, .contenedor_velas .h3 {
-    display: flex;
-    justify-content: center;
-    color: #0a141d;
-    font-size: 20px;
-    margin: 10px; }
-  .contenedor_velas p {
-    display: flex;
-    justify-content: space-around;
-    color: #0a141d;
-    font-size: 18px;
-    padding: 5px; }
-  .contenedor_velas_caracola {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas_caracola:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas_bubble {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas_bubble:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas_minimal {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas_minimal:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
+
+.card {
+  margin: 20px; }
 
 .contenedor_velas2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-left: 10px; }
-  .contenedor_velas2 h3, .contenedor_velas2 .h3 {
-    display: flex;
-    justify-content: center;
-    color: #0a141d;
-    font-size: 20px;
-    margin: 10px; }
-  .contenedor_velas2 p {
-    display: flex;
-    justify-content: space-around;
-    color: #0a141d;
-    font-size: 18px;
-    padding: 5px; }
-  .contenedor_velas2_bajodelmar {
-    background-color: #49443c;
-    margin-top: 10px; }
-    .contenedor_velas2_bajodelmar:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas2_budha {
-    background-color: #49443c;
-    margin: 10px;
-    margin-top: 20px;
-    margin-left: 15px; }
-    .contenedor_velas2_budha:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas2_glaciar {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas2_glaciar:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
+  align-items: center; }
 
 .contenedor_velas3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .contenedor_velas3 h3, .contenedor_velas3 .h3 {
-    display: flex;
-    justify-content: center;
-    color: #0a141d;
-    font-size: 20px;
-    margin: 10px; }
-  .contenedor_velas3 p {
-    display: flex;
-    justify-content: space-around;
-    color: #0a141d;
-    font-size: 18px;
-    padding: 5px; }
-  .contenedor_velas3_huevo {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas3_huevo:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas3_madera {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas3_madera:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas3_elefante {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas3_elefante:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
 
 .pagination {
   display: flex;
@@ -8675,242 +8609,64 @@ textarea.form-control-lg {
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
-  .fondo_velas {
-    background-color: #d6d5cd; }
   .imagen_encabezado_velas {
     display: flex;
     justify-content: center; }
-    .imagen_encabezado_velas .img-fluid {
-      width: 1200px;
-      height: 130px; }
+  .fondo_velas {
+    background-image: url(../img/imagenes-index/fondoindex.jpeg);
+    background-repeat: repeat;
+    background-size: 1460px 820px; }
   .velas_titulo {
-    display: flex;
-    justify-content: start;
-    font-size: 50px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-left: 85px; }
-  .contenedor_velas {
+    color: #d6d5cd; }
+  .contenedor_velas1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
-    .contenedor_velas h3, .contenedor_velas .h3 {
-      display: flex;
-      justify-content: center;
-      color: #0a141d;
-      font-size: 20px;
-      margin: 10px; }
-    .contenedor_velas p {
-      display: flex;
-      justify-content: space-around;
-      color: #0e1102;
-      font-size: 18px;
-      padding: 5px; }
-    .contenedor_velas_caracola {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas_caracola:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas_bubble {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas_bubble:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas_minimal {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas_minimal:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
+    margin-bottom: 50px; }
   .contenedor_velas2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    margin-left: 10px; }
-    .contenedor_velas2 h3, .contenedor_velas2 .h3 {
-      display: flex;
-      justify-content: center;
-      color: #0a141d;
-      font-size: 20px;
-      margin: 10px; }
-    .contenedor_velas2 p {
-      display: flex;
-      justify-content: space-around;
-      color: #0e1102;
-      font-size: 18px;
-      padding: 5px; }
-    .contenedor_velas2_bajodelmar {
-      background-color: #49443c;
-      margin-top: 10px; }
-      .contenedor_velas2_bajodelmar:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas2_budha {
-      background-color: #49443c;
-      margin: 10px;
-      margin-top: 20px;
-      margin-left: 15px; }
-      .contenedor_velas2_budha:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas2_glaciar {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas2_glaciar:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
+    margin-bottom: 50px; }
   .contenedor_velas3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
-    .contenedor_velas3 h3, .contenedor_velas3 .h3 {
-      display: flex;
-      justify-content: center;
-      color: #0a141d;
-      font-size: 20px;
-      margin: 10px; }
-    .contenedor_velas3 p {
-      display: flex;
-      justify-content: space-around;
-      color: #0a141d;
-      font-size: 18px;
-      padding: 5px; }
-    .contenedor_velas3_huevo {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas3_huevo:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas3_madera {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas3_madera:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas3_elefante {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas3_elefante:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-  .pagination {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    padding-bottom: 20px; } }
+    margin-bottom: 50px; } }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding-bottom: 20px; }
+
+.fondo_velas {
+  background-image: url(../img/imagenes-index/fondoindex.jpeg);
+  background-repeat: repeat;
+  background-size: 1460px 820px; }
 
 .velas_titulo {
-  font-size: 50px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  color: #0e1102; }
+  color: #d6d5cd; }
 
 .contenedor_velas4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .contenedor_velas4 h3, .contenedor_velas4 .h3 {
-    display: flex;
-    justify-content: center;
-    color: #0a141d;
-    font-size: 20px;
+  .contenedor_velas4_card1 {
     margin: 10px; }
-  .contenedor_velas4 p {
-    display: flex;
-    justify-content: space-around;
-    color: #0a141d;
-    font-size: 18px;
-    padding: 5px; }
-  .contenedor_velas4_lights {
-    background-color: #49443c;
+  .contenedor_velas4_card2 {
     margin: 10px; }
-    .contenedor_velas4_lights:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas4_hojas {
-    background-color: #49443c;
+  .contenedor_velas4_card3 {
     margin: 10px; }
-    .contenedor_velas4_hojas:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas4_green {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas4_green:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
 
 .contenedor_velas5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .contenedor_velas5 h3, .contenedor_velas5 .h3 {
-    display: flex;
-    justify-content: center;
-    color: #0a141d;
-    font-size: 20px;
-    margin: 10px; }
-  .contenedor_velas5 p {
-    display: flex;
-    justify-content: space-around;
-    color: #0a141d;
-    font-size: 18px;
-    padding: 5px; }
-  .contenedor_velas5_nature {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas5_nature:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas5_forest {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas5_forest:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
-  .contenedor_velas5_white {
-    background-color: #49443c;
-    margin: 10px; }
-    .contenedor_velas5_white:hover {
-      transform: scale(1.2);
-      background-color: #93a08a;
-      border-radius: 30px;
-      transition: all 2s; }
 
 @media (min-width: 768px) {
   * {
@@ -8918,97 +8674,69 @@ textarea.form-control-lg {
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif; }
+  .imagen_encabezado_velas {
+    display: flex;
+    justify-content: center; }
+  .fondo_velas {
+    background-image: url(../img/imagenes-index/fondoindex.jpeg);
+    background-repeat: repeat;
+    background-size: 1460px 820px; }
+  .velas_titulo {
+    text-align: center;
+    color: #d6d5cd; }
   .contenedor_velas4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
-    .contenedor_velas4 h3, .contenedor_velas4 .h3 {
-      display: flex;
-      justify-content: center;
-      color: #0a141d;
-      font-size: 20px;
-      margin: 10px; }
-    .contenedor_velas4 p {
-      display: flex;
-      justify-content: space-around;
-      color: #0a141d;
-      font-size: 18px;
-      padding: 5px; }
-    .contenedor_velas4_lights {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas4_lights:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas4_hojas {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas4_hojas:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas4_green {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas4_green:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
+    margin-bottom: 50px; }
   .contenedor_velas5 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .contenedor_velas5 h3, .contenedor_velas5 .h3 {
-      display: flex;
-      justify-content: center;
-      color: #0a141d;
-      font-size: 20px;
-      margin: 10px; }
-    .contenedor_velas5 p {
-      display: flex;
-      justify-content: space-around;
-      color: #0a141d;
-      font-size: 18px;
-      padding: 5px; }
-    .contenedor_velas5_nature {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas5_nature:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas5_forest {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas5_forest:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; }
-    .contenedor_velas5_white {
-      background-color: #49443c;
-      margin: 10px; }
-      .contenedor_velas5_white:hover {
-        transform: scale(1.2);
-        background-color: #93a08a;
-        border-radius: 30px;
-        transition: all 2s; } }
+    justify-content: space-around; } }
 
 .fondo_support {
   background: #d6d5cd; }
+
+.fondo_support {
+  background-image: url(../img/imagenes-quienessomos/fondo-card.jpeg);
+  background-repeat: repeat;
+  background-size: 1460px 820px; }
+  .fondo_support_titulo {
+    text-align: center;
+    margin: 20px; }
+
+.main_support_ayuda h2, .main_support_ayuda .h2 {
+  text-align: center;
+  margin: 20px; }
+
+.main_ayuda {
+  text-align: center; }
+
+.main_ayuda_recomendadas {
+  text-align: justify;
+  padding: 20px; }
+  .main_ayuda_recomendadas p {
+    text-align: justify; }
+  .main_ayuda_recomendadas a {
+    display: flex;
+    justify-content: row;
+    text-align: center; }
+
+.main_ayuda_rapida {
+  text-align: justify;
+  padding: 20px; }
+  .main_ayuda_rapida p {
+    text-align: justify; }
+  .main_ayuda_rapida a {
+    display: flex;
+    justify-content: row;
+    text-align: center; }
 
 .main_support {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 10px;
-  color: #0a141d; }
+  color: #0e1102; }
 
 .main_support_form h2, .main_support_form .h2 {
   display: flex;
@@ -9038,8 +8766,11 @@ textarea.form-control-lg {
 
 .formulario {
   text-align: center;
-  margin: 10px;
-  margin-left: 20px; }
+  margin: 10px; }
+
+.formulario_contactos {
+  display: flex;
+  justify-content: center; }
 
 .campo_textarea {
   text-align: center; }
@@ -9051,7 +8782,35 @@ textarea.form-control-lg {
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif; }
   .fondo_support {
-    background: #d6d5cd; }
+    background-image: url(../img/imagenes-quienessomos/fondo-card.jpeg);
+    background-repeat: repeat;
+    background-size: 1460px 820px; }
+    .fondo_support_titulo {
+      text-align: center;
+      margin: 20px; }
+  .main_support_ayuda h2, .main_support_ayuda .h2 {
+    text-align: center;
+    margin: 20px; }
+  .main_ayuda {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+  .main_ayuda_recomendadas {
+    text-align: justify; }
+    .main_ayuda_recomendadas p {
+      text-align: justify; }
+    .main_ayuda_recomendadas a {
+      display: flex;
+      justify-content: row;
+      text-align: center; }
+  .main_ayuda_rapida {
+    text-align: justify; }
+    .main_ayuda_rapida p {
+      text-align: justify; }
+    .main_ayuda_rapida a {
+      display: flex;
+      justify-content: row;
+      text-align: center; }
   .main_support {
     padding-top: 30px;
     margin-bottom: 10px;
@@ -9076,14 +8835,12 @@ textarea.form-control-lg {
     margin-right: 10px; }
   .mapa {
     width: 490px;
-    height: 250px;
-    margin-left: 40px; }
+    height: 250px; }
   .formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
-    margin-left: 500px; }
+    width: 500px; }
   .main_support_form form .campo,
   textarea {
     padding: 15px 10px;
@@ -9099,26 +8856,23 @@ textarea.form-control-lg {
     border: none;
     outline: 0px;
     background: #dc3545;
-    color: white;
+    color: #d6d5cd;
     border-radius: 3px;
     cursor: pointer;
     transition: all; } }
 
 .main_taller {
-  background: #cacbc2;
-  background: linear-gradient(180deg, rgba(202, 203, 194, 0.520046) 17%, rgba(255, 255, 255, 0) 59%);
   display: flex;
   justify-content: center;
   padding: 20px; }
   .main_taller_informacion {
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #bebebe;
+    box-shadow: 20px 20px 60px #0e1102;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #cacbc2;
-    background: linear-gradient(180deg, rgba(202, 203, 194, 0.520046) 17%, rgba(255, 255, 255, 0) 59%);
+    background: #d6d5cd;
+    background: linear-gradient(180deg, #737373 17%, #d6d5cd 59%);
     color: #0e1102; }
   .main_taller_titulo {
     display: flex;
@@ -9132,77 +8886,74 @@ textarea.form-control-lg {
     text-align: center;
     margin: 15px; }
 
-.Conteiner_carousel {
+.conteiner_carousel {
   display: flex;
   justify-content: center;
   background-repeat: none;
-  margin: 10px;
-  margin-left: 40px;
-  width: 300px;
   margin-bottom: 30px; }
 
-.Calendario {
+.calendario {
   background: #d6d5cd;
   color: #0e1102;
   padding: 10px; }
-  .Calendario_titulo {
+  .calendario_titulo {
     font-size: 50px;
     text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #0e1102; }
-  .Calendario_horarios_1 {
+  .calendario_horarios_1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 60px;
     margin-top: 60px; }
-    .Calendario_horarios_1 u {
+    .calendario_horarios_1 u {
       color: #dc3545; }
-    .Calendario_horarios_1 a i {
+    .calendario_horarios_1 a i {
       color: #1f2988;
       margin-right: 10px; }
-  .Calendario_horarios_2 {
+  .calendario_horarios_2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 60px;
     margin-top: 60px; }
-    .Calendario_horarios_2 u {
+    .calendario_horarios_2 u {
       color: #dc3545; }
-    .Calendario_horarios_2 a i {
+    .calendario_horarios_2 a i {
       color: #1f2988;
       margin-right: 10px; }
-  .Calendario_horarios_3 {
+  .calendario_horarios_3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 60px;
     margin-top: 60px; }
-    .Calendario_horarios_3 u {
+    .calendario_horarios_3 u {
       color: #dc3545; }
-    .Calendario_horarios_3 a i {
+    .calendario_horarios_3 a i {
       color: #1f2988;
       margin-right: 10px; }
-  .Calendario_horarios_4 {
+  .calendario_horarios_4 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 60px;
     margin-top: 60px; }
-    .Calendario_horarios_4 u {
+    .calendario_horarios_4 u {
       color: #dc3545; }
-    .Calendario_horarios_4 a i {
+    .calendario_horarios_4 a i {
       color: #1f2988;
       margin-right: 10px; }
-  .Calendario_horarios_5 {
+  .calendario_horarios_5 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 60px;
     margin-top: 60px; }
-    .Calendario_horarios_5 u {
+    .calendario_horarios_5 u {
       color: #dc3545; }
-    .Calendario_horarios_5 a i {
+    .calendario_horarios_5 a i {
       color: #1f2988;
       margin-right: 10px; }
 
@@ -9213,17 +8964,15 @@ textarea.form-control-lg {
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif; }
   .main_taller {
-    background: #cacbc2;
-    background: linear-gradient(180deg, rgba(202, 203, 194, 0.520046) 17%, rgba(255, 255, 255, 0) 59%);
     display: flex;
     justify-content: center; }
     .main_taller_informacion {
-      box-shadow: -5px -4px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: -5px -4px 5px 0px #0e1102;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background: #cacbc2;
-      background: linear-gradient(180deg, rgba(202, 203, 194, 0.520046) 17%, rgba(255, 255, 255, 0) 59%);
+      background: #d6d5cd;
+      background: linear-gradient(180deg, #737373 17%, #d6d5cd 59%);
       color: #0e1102;
       margin-top: 20px; }
     .main_taller_titulo {
@@ -9239,79 +8988,83 @@ textarea.form-control-lg {
       text-align: center;
       margin: 15px;
       width: 900px; }
-  .Conteiner_carousel {
+  .carousel_imagenes {
     display: flex;
     justify-content: center;
+    align-items: center; }
+  .conteiner_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-repeat: none;
-    margin-left: 510px;
     width: 400px; }
-  .Calendario {
+  .calendario {
     background: #d6d5cd;
     padding: 10px; }
-    .Calendario_titulo {
+    .calendario_titulo {
       font-size: 50px;
       text-align: center;
       font-family: Georgia, Times, 'Times New Roman', serif;
       color: #0e1102; }
-    .Calendario_horarios_1 {
+    .calendario_horarios_1 {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       margin-bottom: 60px;
       margin-top: 60px; }
-      .Calendario_horarios_1 u {
+      .calendario_horarios_1 u {
         color: #dc3545; }
-      .Calendario_horarios_1 a i {
+      .calendario_horarios_1 a i {
         color: #1f2988;
         margin-right: 10px; }
-    .Calendario_horarios_2 {
+    .calendario_horarios_2 {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       margin-bottom: 60px;
       margin-top: 60px; }
-      .Calendario_horarios_2 u {
+      .calendario_horarios_2 u {
         color: #dc3545; }
-      .Calendario_horarios_2 a i {
+      .calendario_horarios_2 a i {
         color: #1f2988;
         margin-right: 10px; }
-    .Calendario_horarios_3 {
+    .calendario_horarios_3 {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       margin-bottom: 60px;
       margin-top: 60px; }
-      .Calendario_horarios_3 u {
+      .calendario_horarios_3 u {
         color: #dc3545; }
-      .Calendario_horarios_3 a i {
+      .calendario_horarios_3 a i {
         color: #1f2988;
         margin-right: 10px; }
-    .Calendario_horarios_4 {
+    .calendario_horarios_4 {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       margin-bottom: 60px;
       margin-top: 60px; }
-      .Calendario_horarios_4 u {
+      .calendario_horarios_4 u {
         color: #dc3545; }
-      .Calendario_horarios_4 a i {
+      .calendario_horarios_4 a i {
         color: #1f2988;
         margin-right: 10px; }
-    .Calendario_horarios_5 {
+    .calendario_horarios_5 {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       margin-bottom: 60px;
       margin-top: 60px; }
-      .Calendario_horarios_5 u {
+      .calendario_horarios_5 u {
         color: #dc3545; }
-      .Calendario_horarios_5 a i {
+      .calendario_horarios_5 a i {
         color: #1f2988;
         margin-right: 10px; } }
 
 .pie_pagina {
   width: 100%;
-  background-color: #49443c; }
+  background-color: #737373; }
 
 .pie_pagina .group_1 {
   width: 100%;
@@ -9339,16 +9092,16 @@ textarea.form-control-lg {
   margin-bottom: 10px;
   padding: 20px; }
 
-.pie_pagina .group_1 .Red_social i {
+.pie_pagina .group_1 .red_social i {
   display: inline-block;
   font-size: 25px;
   width: 35px;
   color: #fff; }
-  .pie_pagina .group_1 .Red_social i:hover {
+  .pie_pagina .group_1 .red_social i:hover {
     color: #5ec3c5; }
 
 .pie_pagina .group_2 {
-  background-color: #49443c;
+  background-color: #737373;
   padding: 15px 10px;
   text-align: center;
   color: #fff; }
@@ -9363,7 +9116,7 @@ textarea.form-control-lg {
     font-family: Georgia, 'Times New Roman', Times, serif; }
   .pie_pagina {
     width: 100%;
-    background-color: #49443c; }
+    background-color: #737373; }
   .pie_pagina .group_1 {
     width: 100%;
     margin: auto;
@@ -9390,15 +9143,15 @@ textarea.form-control-lg {
   .pie_pagina .group_1 .box p {
     color: #efefef;
     margin-bottom: 10px; }
-  .pie_pagina .group_1 .Red_social i {
+  .pie_pagina .group_1 .red_social i {
     display: inline-block;
     font-size: 25px;
     width: 35px;
     color: #fff; }
-    .pie_pagina .group_1 .Red_social i:hover {
+    .pie_pagina .group_1 .red_social i:hover {
       color: #5ec3c5; }
   .pie_pagina .group_2 {
-    background-color: #49443c;
+    background-color: #737373;
     padding: 15px 10px;
     text-align: center;
     color: #fff; }
@@ -9415,7 +9168,7 @@ textarea.form-control-lg {
   display: flex;
   justify-items: center;
   padding: 25px 0 25px 35px;
-  background-color: #49443c;
+  background-color: #737373;
   border-top: 70px; }
   .container-fluid ul li a, .container-sm ul li a, .container-md ul li a, .container-lg ul li a, .container-xl ul li a, .container-xxl ul li a {
     display: flex;

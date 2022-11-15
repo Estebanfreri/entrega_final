@@ -1,116 +1,43 @@
-.velas_titulo {
-    font-size: 50px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    color: $dark;
+.fondo_velas{
+    background-image: url(../img/imagenes-index/fondoindex.jpeg);
+background-repeat: repeat;
+background-size: 1460px 820px;
+
+}
+    .velas_titulo{
+text-align: center;
+color: $light;
+    }
     
-}
-
-.contenedor_velas4 {
-    display: flex;
+    .contenedor_velas4{
+        display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    &_card1{
+        margin: 10px;
+        
+    }
+    &_card2{
+        margin: 10px;
+        
+    }
+    &_card3{
+        margin: 10px;
+       
+    }
+    }
 
-    h3 {
+    .contenedor_velas5{
         display: flex;
+        flex-direction:column;
         justify-content: center;
-        color: #0a141d;
-        font-size: 20px;
-        margin: 10px;
+        align-items: center;
+
     }
 
-    p {
-        display: flex;
-        justify-content: space-around;
-        color: #0a141d;
-        font-size: 18px;
-        padding: 5px;
-    }
 
-    &_lights {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_hojas {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_green {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-}
 
-.contenedor_velas5 {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-
-    h3 {
-        display: flex;
-        justify-content: center;
-        color: #0a141d;
-        font-size: 20px;
-        margin: 10px;
-    }
-    p {
-        display: flex;
-        justify-content: space-around;
-        color: #0a141d;
-        font-size: 18px;
-        padding: 5px;
-    }
-    &_nature {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_forest {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_white {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-}
 
 
 @media (min-width:768px) {
@@ -121,110 +48,39 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
-
-.contenedor_velas4 {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
-
-    h3 {
+    .imagen_encabezado_velas{
         display: flex;
-        justify-content: center;
-        color: #0a141d;
-        font-size: 20px;
-        margin: 10px;
+    justify-content: center;
     }
 
-    p {
-        display: flex;
-        justify-content: space-around;
-        color: #0a141d;
-        font-size: 18px;
-        padding: 5px;
-    }
+.fondo_velas{
+    background-image: url(../img/imagenes-index/fondoindex.jpeg);
+background-repeat: repeat;
+background-size: 1460px 820px;
 
-    &_lights {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_hojas {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_green {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
 }
-
-.contenedor_velas5 {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
-
-    h3 {
-        display: flex;
-        justify-content: center;
-        color: #0a141d;
-        font-size: 20px;
-        margin: 10px;
+    .velas_titulo{
+text-align: center;
+color: $light;
     }
-    p {
+    
+    .contenedor_velas4{
         display: flex;
+        flex-direction:row;
         justify-content: space-around;
-        color: #0a141d;
-        font-size: 18px;
-        padding: 5px;
+        margin-bottom: 50px;
+        
+
     }
-    &_nature {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
+
+    .contenedor_velas5{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+
     }
-    &_forest {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-    &_white {
-        background-color: #49443c;
-        margin: 10px;
-        &:hover {
-            transform: scale(1.2);
-            background-color: #93a08a;
-            border-radius: 30px;
-            transition: all 2s;
-        }
-    }
-}
+
+
+
 }
